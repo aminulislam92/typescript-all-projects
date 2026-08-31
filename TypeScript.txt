@@ -1,0 +1,25 @@
+## package.json file create 
+npm init -y
+
+## only for projects
+npm install typescript --save-dev
+
+## global install for full pc
+npm install -g typescript
+
+## typescript configuration
+tsc --init
+
+## configuration
+ctrl + f, rootDir, outDir, uncomment, 
+create src folder, create index.ts in src folder
+
+## now test typescript in index.ts file
+
+
+## typescript build project
+tsc 
+
+## build file or js file run
+node dist/index.js
+## 
