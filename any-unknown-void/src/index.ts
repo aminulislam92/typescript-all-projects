@@ -34,7 +34,12 @@ console.log(name);
 let age: undefined = undefined;
 console.log(age);
 
-age = 40;
+let runScore: number | undefined = undefined;
+if (typeof runScore === "number") {
+  console.log(runScore);
+} else {
+  console.log("Not found");
+}
 
 // null type
 let score = null;
