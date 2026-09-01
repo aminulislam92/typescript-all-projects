@@ -1,4 +1,6 @@
 // functions in typescript
+// function paramiter type, return type, function signature type
+
 // function functionName(){
 //     // logic
 // }
